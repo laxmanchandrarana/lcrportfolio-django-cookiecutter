@@ -22,6 +22,8 @@ urlpatterns = [
     # User management
     path("users/", include("lcrportfolio_slug.users.urls", namespace="users")),
     path("accounts/", include("allauth.urls")),
+    path("products/", include("lcrportfolio_slug.products.urls")),
+    path("ecommerce/", include("lcrportfolio_slug.ecommerce.urls")),
     # Your stuff: custom urls includes go here
     # ...
     # Media files

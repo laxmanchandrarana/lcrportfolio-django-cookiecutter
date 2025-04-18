@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<section class="apihu-port-service-area" id="apihu-port-feature">
+    <img class="apihu-port-service-shape-1" src="{% static 'assets/service-shape-1.png' %}" alt="Service Shape">
+    <img class="apihu-port-service-shape-2" src="{% static 'assets/service-shape-2.png' %}" alt="Service Shape">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 text-center">
+                <div class="apihu-port-section-heading">
+                    <p class="apihu-port-section-subtitle">Trying to make this section powerful and inspiring.</p>
+                    <h2 class="apihu-port-section-title">Projects and <span class="apihu-port-section-title-color">Achievements</span>.</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-6">
+                <div class="apihu-port-single-service wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="apihu-port-service-icon-box">
+                        <i class="fa-solid fa-chart-bar"></i>
+                    </div>
+                    <h3 class="apihu-port-single-service-title">Astrology Website using HTML and CSS</h3>
+                    <p class="apihu-port-single-service-text">Developed a responsive and user-friendly website for **Celebrity Astrologer**, incorporating a professional design with seamless astrology content integration. Optimized for fast loading times, mobile responsiveness, and intuitive navigation, ensuring an enhanced user experience. The site is designed to deliver engaging astrology services and content efficiently across all devices. 
+                        </p>
+                    <a class="apihu-port-single-service-btn" href="https://celebrityastrologer.in/" target="_blank">Visit site <i class="fas fa-plus"></i></a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6">
+                <div class="apihu-port-single-service wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="apihu-port-service-icon-box">
+                        <i class="fa-solid fa-chart-bar"></i>
+                    </div>
+                    <h3 class="apihu-port-single-service-title">File Manager Application with built-in File Organizer using Python</h3>
+                    <p class="apihu-port-single-service-text">This  is  a  unique  file  manager  application  that  has  a function  or  button  in  it  called  Organizer.  This  function helps  you  nicely  organize  your  files.  This  project  wasmade  using  the  'tkinter'  and  'OS'  modules  of  Python.When you run this project, you can go through your local disks. Locate to a folder that you want to organize. Afterpressing  the  “Organize  ”  button  in  the  application,  the program will separate all your different files into different folders, like 'Audio' files in the 'AudioFiles' folder. 
+                        </p>
+                    <a class="apihu-port-single-service-btn" href="https://github.com/laxmanchandrarana/File-Manager-Application-with-built-in-File-Organizer" target="_blank">Read More <i class="fas fa-plus"></i></a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6">
+                <div class="apihu-port-single-service wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="apihu-port-service-icon-box">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <h3 class="apihu-port-single-service-title">Google Assistant Controlled Home Automation</h3>
+                    <p class="apihu-port-single-service-text">In this home automation, as the user gives commands tothe  Google  assistant,  Home  appliances  like  Bulb,  Fan and  Motor  etc.,  can  be  controlled  accordingly.  The commands  given  through  the  Google  assistant  are decoded  and  then  sent  to  the  microcontroller,  the microcontroller in turn controls the relays connected toit. The device connected to the respective relay can beturned On or OFF as per the users request to the Google Assistant. The microcontroller used id ESP8266 and thecommunication  between  the  microcontroller  and  the application is established via Wi-Fi (Internet).
+                        </p>
+                    <!-- <a class="apihu-port-single-service-btn" href="#">Read More <i class="fas fa-plus"></i></a> -->
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6">
+                <div class="apihu-port-single-service wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="apihu-port-service-icon-box">
+                        <i class="fa-solid fa-paintbrush"></i>
+                    </div>
+                    <h3 class="apihu-port-single-service-title">Text Editor using Python</h3>
+                    <p class="apihu-port-single-service-text">
+                        This  project  was  made  using  'tkinter'  and  'OS'module of Python.In this application you can write text  and  also  you  can  change  the  font  type,font colour,font size and bold,italic,underline the text.</p>
+                    <a class="apihu-port-single-service-btn" href="https://github.com/laxmanchandrarana/Text-Editor" target="_blank">Read More <i class="fas fa-plus"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

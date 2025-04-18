@@ -1,3 +1,63 @@
 {% extends "base.html" %}
 
+{% load static %}
+
+{% block content %}
+<section class="apihu-port-hero-area" id="apihu-port-hero">
+
+    <!-- Hero bg shape -->
+    
+    <img class="apihu-port-hero-shape-1" src="{% static 'assets/hero-shape.png' %}" alt="Shape">
+    <img class="apihu-port-hero-shape-2" src="{% static 'assets/python.png' %}" alt="Shape">
+    <img class="apihu-port-hero-shape-3" src="{% static 'assets/arduino.png' %}" alt="Shape">
+    <img class="apihu-port-hero-shape-4" src="{% static 'assets/html.png' %}" alt="Shape">
+    <img class="apihu-port-hero-shape-5" src="{% static 'assets/sql.png' %}" alt="Shape">
+        
+    
+    
+    <span class="apihu-port-hero-side-style-text">Laxman</span>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8 col-lg-8">
+                <div class="apihu-port-hero-left">
+                    <p class="apihu-port-hero-subtitle wow slideInDown">Welcome to My World</p>
+                    <h1 class="apihu-port-hero-title cd-headline clip is-full-width">Hi there!<br>I’m Laxman Chandra Rana<span class="apihu-port-hero-title-color cd-words-wrapper">
+                    </span>
+                        <span class="apihu-port-hero-title-small-text"><div class="type">
+<p>I'm into <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+</div></span> 
+                    </h1>
+                    
+                    <ul class="apihu-port-hero-btn-wrap wow slideInUp">
+                        <li><a class="apihu-port-primary-btn apihu-port-hero-btn-gradient" href="mailto:laxmanchandrarana2000@gmail.com">Contact Me +</a></li>
+                        <li><a class="apihu-port-secondary-btn apihu-port-hero-btn-white" href="#apihu-port-resume">About Me <i class="fa-solid fa-arrow-down"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4">
+                <!-- hero area social -->
+                <div class="apihu-port-hero-social">
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/laxmanchrana/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="https://github.com/laxmanchandrarana"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="https://www.instagram.com/laxmanchandrarana/"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="apihu-port-hero-right wow slideInRight">
+                    <div class="apihu-port-hero-right-img">
+                        <img src="{% static 'assets/landing_image.png' %}" alt="Hero Area">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_scripts %}
+
+<script src="{% static 'assets/type.js' %}"></script>
+
+
+{% endblock %}
 

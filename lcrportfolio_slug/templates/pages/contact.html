@@ -1,0 +1,34 @@
+{% load static %}
+
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="apihu-port-contact-area" id="contact-details">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 text-left">
+                <div class="apihu-port-section-heading">
+                    <p class="apihu-port-section-subtitle">Contact Me</p>
+                    <h2 class="apihu-port-section-title">Get in Touch With Me</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xl-6">
+                <div class="apihu-port-contact-right">
+                    <div class="apihu-port-contact-right-img">
+                        <img src="{% static 'assets/contact-illust.png' %}" alt="Contact Right">
+                    </div>
+                    <div class="apihu-port-contact-right-content">
+                        <div class="apihu-port-contact-text">
+                            <span class="apihu-port-contact-number"><a href="mailto:laxmanchandrarana2000@gmail.com">MailTo: <font style="font-weight: bold; color: #e70280;">laxmanchandrarana2000@gmail.com</font></a></span>
+                            <span class="apihu-port-contact-email"><a href="https://www.linkedin.com/in/laxmanchrana/">DM on LinkedIn: <font style="font-weight: bold; color: #e70280;">laxmanchrana</font></a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

@@ -1,3 +1,72 @@
 {% extends "base.html" %}
 
+{% load static %}
 
+{% block content %}
+<!-- About Start -->
+<section class="apihu-port-about-area" id="apihu-port-resume">
+    <img src="{% static 'assets/about-shape-1.png' %}" alt="" class="apihu-port-about-shape">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6">
+                <div class="apihu-port-about-left wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;">
+                    <div class="apihu-port-about-img">
+                        <img src="{% static 'assets/left_python.png' %}" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6">
+                <div class="apihu-port-about-right">
+                    <h3 class="apihu-port-about-subtitle">About Laxman</h3>
+                    <h2 class="apihu-port-about-title">Passionate about new tech. and <span>Python</span>.</h2>
+                    <p class="apihu-port-about-text">I am a <b>B.Tech</b> graduate in <b>Electronics and Communication Engineering</b> with a
+                        passion for technology and innovation. My academic journey has been marked
+                        by hands-on experience in <b>Python programming</b> and <b>Internet of Things (IoT)</b>
+                        projects. I have also ventured into the research domain, contributing to the field
+                        with a publication titled <b>"A Novel Method of CCTV Video Compression using
+                            Down Sampling"</b>.
+                        Professionally, I have served as an <b>Academic Research Associate</b> at <b>Assurex EConsultant</b> from <b>August</b> to <b>December</b> of <b>2023</b>, a role centered on <b>Academic
+                            Software Development</b>. Also, I undertook an <b>internship</b> as a <b>Desktop App
+                                Developer</b> at <b>The Bengal Studio</b> in <b>August, 2023</b>. This role provided me with
+                        hands-on experience in designing and implementing software applications.</p>
+                    <div class="apihu-port-about-expertise">
+                        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                            <li class="nav-item">
+                              <a class="nav-link active show" id="pills-home-tab" href="https://www.linkedin.com/in/laxmanchrana/" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link active show" id="pills-profile-tab" href="https://github.com/laxmanchandrarana" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fa-brands fa-square-github"></i> Github</a>
+                            </li>
+                            
+                          </ul>
+                    
+                          <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade active show" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                    <ul>
+                                        <li>
+                                            <span class="apihu-port-expertise-title">Worked with Tkinter, OS, PyGame, NumPy, Pandas </span>
+                                            <span class="apihu-port-expertise-text">Useful Libraries in Python</span>
+                                        </li>
+                                        <li>
+                                            <span class="apihu-port-expertise-title">Currently working with <font style="color: blue;">Web Development</font></span>
+                                            <span class="apihu-port-expertise-text">Soon going to gain some experience in it.</span>
+                                        </li>
+                                        <li>
+                                            <span class="apihu-port-expertise-title">I am into Academic Technical content creation and Software Development .</span>
+                                            <span class="apihu-port-expertise-text">Having experience about 6 months+.</span>
+                                            <!-- <span class="apihu-port-expertise-text">Check out my blogging site: <a href="https://foxstack.blogspot.com/" style="text-decoration: none; color: #e70820;">FoxStack</a></span> -->
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                    <div class="apihu-port-about-btn">
+                        <a href="https://drive.google.com/file/d/1UKr62RZJpQX7NlTDqtj6kON4bvMZhNGL/view?usp=sharing">Download CV <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About End -->
+{% endblock content %}
